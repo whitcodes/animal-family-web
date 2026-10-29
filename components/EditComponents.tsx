@@ -141,7 +141,9 @@ export function EditTaskButton({ task }: EditTaskButtonProps) {
             taskDesc: taskDesc.trim(),
             complete,
             lastCompleted: finalLastCompleted,
-            repeatIntervHours: repeatIntervHours
+            repeatIntervHours: repeatIntervHours,
+            animalId: task.animalId,
+            enclosureId: task.enclosureId
         }, {
             onSuccess: () => {
                 setOpen(false);
