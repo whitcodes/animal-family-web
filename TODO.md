@@ -2,6 +2,8 @@
 
 ## Fixes
 
+- [ ] Rename remaining "Animal Family" references to "Brindl" (repo, package name, user-facing strings; the Vercel project is already `brindl`)
+
 - [ ] Glitchy when quick jumping to task
 - [ ] Make home screen scrollbar invisible or pushed further right
 - [ ] URL query params cause jumping on every reload — clicking navbar should clear param, opening an accordion should update it
