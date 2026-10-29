@@ -30,7 +30,14 @@ export interface CreateTaskInput extends TaskSubject {
   repeatIntervHours: number;
 }
 
+/**
+ * Required, not optional, on updates: PUT /tasks/{id} rejects a request with no
+ * subject, and optional fields let a caller leave it out without the compiler
+ * noticing. Callers pass the task's own animalId and enclosureId.
+ */
 export interface UpdateTaskInput extends TaskSubject {
+  animalId: number | null;
+  enclosureId: number | null;
   taskId: number;
   taskName: string;
   taskDesc: string;
