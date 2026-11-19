@@ -52,7 +52,3 @@ The application will be available at [http://localhost:3000](http://localhost:30
 - **Styling:** Tailwind CSS
 - **UI Components:** shadcn/ui
 - **State Management:** TanStack Query (React Query)
-
-## Development Status
-
-See [TODO.md](TODO.md) for planned features, known bugs, and upcoming work.
